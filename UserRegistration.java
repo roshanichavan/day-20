@@ -39,10 +39,10 @@ public class UserRegistration {
 		public static void main(String[] args) {
 	        	UserRegistration user = new UserRegistration();
 					
-			System.out.println(user.validateFirstName("Himanshu"));;
-			System.out.println(user.validateLastName("Rai"));
+			System.out.println(user.validateFirstName("roshani"));;
+			System.out.println(user.validateLastName("chavan"));
 			System.out.println(user.validateEmail("abc.xyz@bl.co.in"));
-			System.out.println(user.validatePhoneNumber("91 9532757773"));
+			System.out.println(user.validatePhoneNumber("91 9075949138"));
 			System.out.println(user.validatePassWord("H7@aS7ft"));
 			//validate multiple email entries
 			ArrayList<String> emails = new ArrayList<>();
